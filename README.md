@@ -1,7 +1,6 @@
 # GNN
 GCN/GAT implementations using PyToch Geometric
 
-Important Info:
 ## Task 1
 - ```gcn-cora.py``` is a standalone file which just downloads and trains the GCN/GAT on the Cora Dataset.
 
