@@ -3,7 +3,7 @@ GCN/GAT implementations using PyToch Geometric
 
 Important Info:
 ## Task 1
-```gcn-cora.py``` is a standalone file which just downloads and trains the GCN/GAT on the Cora Dataset.
+- ```gcn-cora.py``` is a standalone file which just downloads and trains the GCN/GAT on the Cora Dataset.
 
 ## Task 2
 - [PATTERN](https://github.com/graphdeeplearning/benchmarking-gnns/blob/master/data/SBMs/generate_SBM_PATTERN.ipynb) (Works perfectly.)
@@ -14,9 +14,9 @@ Essentially what these will yiled is a large list of small sized graphs relative
 
 It would be ideal if you used a GPU to train these because each epoch takes 6 minutes using a CPU and you need 400 Epochs.
 
-The two files below work together
-```sbm_data2geometric.py```: Converts synthatically generated dataset to a format that pytorch_geometric can read. 
-```train.py``` : Uses the synthetically converted datasets and trains the GCN/GAT.
+The two files below work together:
+- ```sbm_data2geometric.py```: Converts synthatically generated dataset to a format that pytorch_geometric can read. 
+- ```train.py``` : Uses the synthetically converted datasets and trains the GCN/GAT.
 
 I have added comments on almost each line for both files. I hope that this accelerates your progress. 
 
