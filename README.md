@@ -8,6 +8,7 @@ Important Info:
 ## Task 2
 - [PATTERN](https://github.com/graphdeeplearning/benchmarking-gnns/blob/master/data/SBMs/generate_SBM_PATTERN.ipynb) (Works perfectly.)
 - [CLUSTER](https://github.com/graphdeeplearning/benchmarking-gnns/blob/master/data/SBMs/generate_SBM_CLUSTER.ipynb) (This one is a bit too randomised gives bad results.)
+
 The two Jupyter Notebooks above creates randomized graphs consisting of numbers. Both of these Jupyter Notebooks will create 3 plk files which will consist of datasets for train, test, validation. 
 
 Essentially what these will yiled is a large list of small sized graphs relative to Cora. There is a graph at each index of a list. We have to find a way to convert this long list of graphs to the type that pytorch_geometric can read. 
